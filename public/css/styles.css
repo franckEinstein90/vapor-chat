@@ -1,0 +1,71 @@
+:root{
+    --crackle   : #69E9F5; 
+    --pop       : #FFB71E; 
+    --snaple    : #FF291E;
+    --crash     : #ffca60;
+    --dark      : #645FCE; 
+    --light     : #FFFFFF; 
+    --sky       : #3358AF;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;  
+}
+
+#mainContent{
+    margin-top: 40px; 
+    margin-left: 40px; 
+    width: 70%; 
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
+
+.topNav {
+    display             : none; 
+    background-color    : var(--crash); 
+    color               : var(--crackle); 
+}
+
+.headerBanner {
+    background-color    : var(--dark); 
+    color               : var(--light); 
+    box-shadow          : 2px 2px; 
+}
+
+.headerBanner button{
+    font-size           : 1.2em; 
+    background-color    : var(--china); 
+    border              : 1px var(--crash);
+    color               : var(--snaple); 
+    shadow-box          : 2px 2px; 
+}
+
+.productFeatures {
+    font-size   : 1.2em; 
+}
+
+.productFeatures li{
+    list-style-type: none;
+    margin-bottom: 10px; 
+    text-align: 'justify'; 
+}
+
+#promoOne , #promoOne P{
+    color: var(--dark)
+}
+
+#promoOne h1{
+    color:  var(--snaple)
+}
+
+#logo {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 8px; 
+    box-shadow: 2px 2px; 
+}

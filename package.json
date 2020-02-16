@@ -2,10 +2,23 @@
   "name": "vapor-chat",
   "version": "1.0.0",
   "description": "a new concept for a messaging app",
-  "main": "./bin/www.js",
+  "main": "./app.js",
   "scripts": {
-    "start": "nodemon ./bin/www.js",
+    "start" :   "node ./app.js", 
+    "dev"   :   "nodemon ./app.js", 
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "_moduleAliases": {
+    "@connections": "src/connections",
+    "@src": "src",
+    "@routes": "src/routes",
+    "@events": "src/events",
+    "@utils": "src/utils",
+    "@services": "src/services",
+    "@server": "src/server",
+    "@viewSystem": "src/viewSystem",
+    "@errors": "src/errors.js",
+    "@users": "src/users"
   },
   "repository": {
     "type": "git",
@@ -22,8 +35,11 @@
   },
   "homepage": "https://github.com/franckEinstein90/vapor-chat#readme",
   "dependencies": {
+    "config": "^3.2.5",
     "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
     "express-handlebars": "^3.1.0",
+    "googleapis": "^39.2.0",
     "hbs": "^4.0.6",
     "helmet": "^3.21.2",
     "i": "^0.3.6",
