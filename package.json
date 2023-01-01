@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/franckEinstein90/vapor-chat#readme",
   "dependencies": {
-    "config": "^3.2.5",
+    "config": "^3.3.8",
     "express": "^4.17.1",
     "express-favicon": "^2.0.1",
     "express-handlebars": "^3.1.0",
